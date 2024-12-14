@@ -1,0 +1,118 @@
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: var(--Cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    background: var(--White);
+    border-radius: 1rem;
+}
+
+.img-container, .text-container{
+    flex: 50%;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.text-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.text-container p:first-of-type{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    color: var(--Dark-grayish-blue);
+}
+
+.text-container h1{
+    font-family: 'Fraunces';
+    font-size: 2.8rem;
+    line-height: 3rem;
+    color: var(--Very-dark-blue);
+}
+
+.text-container p:last-of-type{
+    font-size: 1.1rem;
+    color: var(--Dark-grayish-blue);
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.price-container h1{
+    font-family: fraunces;
+    font-size: 2.5rem;
+    color: var(--Dark-cyan);
+}
+
+.price-container > p{
+    font-weight: 500;
+    text-decoration: line-through;
+    text-align: left;
+    letter-spacing: normal !important;
+}
+
+button{
+    background: var(--Dark-cyan);
+    color: var(--Cream);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+
+button img{
+    width: 1.1rem;
+}

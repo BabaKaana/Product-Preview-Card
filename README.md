@@ -2,7 +2,7 @@
   Product Preview Card Design by using HTML and CSS.
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Product Preview Card](https://babakaana.github.io/Product-Preview-Card/)
 
 ### Built with
 

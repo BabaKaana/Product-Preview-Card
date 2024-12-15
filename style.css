@@ -116,3 +116,58 @@ button{
 button img{
     width: 1.1rem;
 }
+
+@media (max-width: 375px){
+    body{
+        font-size: 11px;
+    }
+    .card{
+        width: 330px;
+        height: 650px;
+        flex-direction: column;
+    }
+
+    .img-container{
+        flex: 40%;
+        background-image: url(images/image-product-mobile.jpg);
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .text-container{
+        flex: 60%;
+        padding: 1.5rem 1.2rem;
+    }
+
+    .text-container p:first-of-type{
+        font-size: 0.82rem;
+    }
+
+    .text-container h1{
+        font-size: 2.05rem;
+        line-height: 2.1rem;
+    }
+
+    .text-container p:last-of-type{
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+
+    .price-container h1{
+        font-size: 2rem;
+    }
+
+    .price-container p{
+        font-size: 0.85rem !important;
+    }
+
+    button{
+        padding: 0.85rem 2rem;
+        font-size: 1rem;
+    }
+
+    button img{
+        width: 1rem;
+    }
+
+
+}
